@@ -1,0 +1,681 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 1rem 1rem; */
+    border-bottom: 1px solid grey;
+    background-color: #FCFCFE;
+    position: -webkit-sticky;
+    background-position: no-repeat;
+    background-repeat:n ;
+    background-attachment:scroll ;
+    position: sticky;
+
+    top: 0;
+    text-align: center;
+}
+element:hover {scale: 0.5;}
+p:firs
+nav {
+    width: 100%;
+    height: 8%;
+}
+nav .box_nav1 div {
+    display: table;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid rgb(0, 192, 202);
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: rgb(65, 213, 249);
+}
+nav .box_nav1 {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 120px;
+    margin: 0.29rem 2rem 0rem 2rem;
+    background-color: #FCFCFE;
+}
+nav .box_nav1 div:hover {
+    background-color:  rgb(0, 192, 202);
+    color: white;
+    transition-property:background-color , color ;
+    transition-duration: 0.5s;
+}
+.box_nav2 div {
+    margin-bottom: 0 !important;
+}
+.box_nav2 .div2 {
+    justify-content: center;
+}
+.box_nav2 .div2 img {
+    margin-left: 5px;
+}
+.box_nav1 {
+    font-family: "Vazir";
+    font-size: medium;
+}
+nav .box_nav2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 1000px;
+    height: 120px;
+    margin: 0 2rem;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+.icon_search  {
+    width: 50px;
+    height: 30px;
+}
+.img1 {
+    width: 40px ;
+    height: 40px ;
+}
+ .box_nav2 .div2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 153px;
+    margin-left: 10px;
+}
+
+.box_nav2 .div2 p {
+    font-family: "Vazir";
+    font-size: medium;
+}
+.box_nav2 .div3{
+    display: flex;
+    align-items: center;
+    width: 410px;
+}
+.box_nav2 .div3 input{
+    width: 380px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: right;
+    font-family: "Vazir";
+    font-size: small;
+    border: white solid 1px;
+}
+.box_nav2 .div3 {
+    border: rgb(163, 252, 249) solid 2px;
+    padding: 0 0.1rem;
+    border-radius: 10px;
+}
+.icon_search {
+    width: 20px;
+    height: 20px;
+}
+.fixed {
+    background: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.358)) , url(https://irs01.wisgoon.com/irs01/72/40/a2/54/irs01_s3old_1609679557908590791.jpg) fixed  0/cover;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.search_box {
+    font-family: "Vazir";
+    font-size: larger;
+    color: white;
+    line-height: 2rem;
+}
+.search_box_inner {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.search_box_inner input {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 7px;
+    text-align: right;
+    font-family: "Vazir";
+    font-size: medium;
+}
+.search_box_inner button {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 7px;
+    margin-right: 0.5rem;
+    font-family: "Vazir";
+    font-size: medium;
+}
+.search_box_inner button:hover {
+    background-color:  rgb(0, 192, 202);
+    color: white;
+    transition-property:background-color , color ;
+    transition-duration: 0.5s;
+}
+.fixed .box_black {
+    display: flex;
+    filter: grayscale(70%);
+    width: 1000px;
+    height: initial;
+    justify-content: space-around;
+}
+.fixed .box_black div {
+    display: flex;
+    flex-direction: column;
+    font-family: "Vazir";
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+.box_blackf {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.582) , rgba(0, 0, 0, 0.564));
+    border-radius: 1rem;
+    line-height: 1.5rem;
+
+}
+.box_title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Vazir";
+}
+.box_title .div_2 div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 5vh;
+}
+.box_title .div_2 div {
+    display: flex;
+    justify-content: space-around;
+}
+.div_2 {
+    margin-top: 5%;
+}
+.div1 , .div3 , .div2 {
+    margin-bottom: 30px;
+    line-height: 2rem;
+}
+.div_2 div , .div_2 div , .div_2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+.div_1 p {
+    font-family: "Vazir";
+    font-size: x-large;
+    font-weight: 600;
+}
+.title4 img , .title1 img , .title2 img , .title3 img  {
+    margin-bottom: 5vh !important;
+    width: 90px  !important;
+    height: 90px !important;
+}
+.title1 img , .title2 img , .title3 img {
+    margin-top: 2vh;
+}
+.title4 img {
+    margin-top: 3vh;
+
+}
+.title8 img {
+    padding-top: 20px;
+}
+.title7 img {
+    margin-bottom: 7vh !important;
+}
+.box_title .div_2 div:hover{
+    border: 2px solid rgb(220, 218, 218);
+    border-radius: 5px;
+}
+.box_title .div_2 div {
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.div_2 {
+    padding: 0 4vh 4vh 4vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box_title {
+    padding:  4vh;
+}
+.div_3 button {
+    width: 8rem;
+    height: 3.5rem;
+    font-family: "Vazir";
+    font-size: medium;
+    background-color:rgb(30, 136, 229) ;
+    color: white;
+    border: 2px solid #FCFCFE ;
+    border-radius: 5px;
+}
+.div_3 button:hover {
+    background-color:rgb(30, 33, 229);
+    transition-property: background-color ;
+    transition-duration: 0.5s;
+}
+.box_ted {
+    width: 100%;
+    background-color: rgb(58, 196, 250) ;
+    padding: 5rem 0;
+}
+.div1_title {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Vazir";
+    margin: 0 200px;
+    padding-bottom: 1vh;
+    border-bottom: 3px solid white ;
+}
+.div1_title div {
+    display: flex;
+    font-family: "Vazir";
+    font-size:x-large;
+    font-weight: 500;
+    width: 25%;
+    height: 5rem;
+    color:   rgb(255, 255, 255);
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1_title button {
+    width: 22%;
+    height: 4rem;
+    font-family: "Vazir";
+    font-size: large;
+    font-weight: 500;
+    background-color: white;
+    color:   rgb(0, 192, 202);
+    border: 1px solid rgb(0, 192, 202) ;
+    border-radius: 7px;
+}
+.div2_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 200px;
+    align-items: center;
+    justify-content: center;
+}
+.div2_box div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1rem;
+    text-align: right;
+    font-family: "Vazir";
+    font-size: x-small;
+    width: 12rem;
+    height: 20rem;
+    border-radius: 10px;
+    margin:  1rem;
+    background-color: white;
+    padding: 1rem;
+}
+.div2_box div img {
+    width:-webkit-fill-available;
+    margin-top: 0.8rem ;
+}
+.div2_box div span  {
+    font-size: small !important;
+}
+.div2_box div p {
+    margin: 0.8rem 0;
+    height: 122px;
+}
+.div2_box div button {
+    font-family: "Vazir";
+    font-size: small;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    color:   rgb(0, 192, 202);
+    border: 1px solid rgb(0, 192, 202) ;
+}
+.div2_box div button:hover {
+    background-color:  rgb(0, 192, 202);
+    color: white;
+    transition-property:background-color , color ;
+    transition-duration: 0.5s;
+}
+.box_edcations{
+    width: 100%;
+    padding: 3rem 0;
+    background-color: #f4f4f4;
+}
+.box_edcations .div_title p {
+    text-align: right;
+    font-family: "Vazir";
+    font-size:2rem;
+    font-weight: 500;
+}
+.box_edcations .div_title {
+    font-family: "Vazir";
+    margin: 0 200px;
+    padding-bottom: 1vh;
+    border-bottom: 3px solid white ;
+    padding-bottom: 2rem;
+    border-bottom: whitesmoke 3px solid;
+    border-bottom: #dbdbdc 2px solid;
+}
+.e {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.box_edcations .e > div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+    text-align: right;
+    font-family: "Vazir";
+    font-size: x-small;
+    width: 23rem;
+    height: 23rem;
+    border: 2px solid #dbdbdc;
+    border-radius: 5px;
+    margin:  1rem 0.5rem;
+    background-color: white;}
+.e div img {
+    width:-webkit-fill-available;
+    border-radius: 2px;
+}
+.e > div > p {
+    margin:  1rem;
+    text-align: right;
+    font-family: "Vazir";
+    font-size: medium;
+}
+.e div div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    font-family: "Vazir";
+    font-size: x-small;
+    width: 90%;
+    height: 23rem;
+    border-bottom: #dbdbdc 1px solid;
+    align-self: center;
+
+}
+.e div div img {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0.5rem;
+}
+.e div div p {
+    text-align: right;
+    font-size: small;
+}
+.box_ways{
+    background-color:#00A2E8 ;
+}
+.box_ways img {
+    width: 100%;
+}
+.ways {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color:#00A2E8 ;
+}
+.ways_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44rem;
+}
+.t1 p , .t2 p {
+    text-align: right;
+    font-family: "Vazir";
+    font-size:1.3rem;
+    font-weight: 500;
+    overflow-wrap:normal;
+}
+.t1 , .t2{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+.t1 p {
+    font-size: 2.5rem ;
+}
+.ways .learning_paths {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.ways .learning_paths > div {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 33rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0.5rem 0.5rem;
+    border-radius: 5px;
+    padding: 0.8rem;
+}
+.ways .learning_paths img {
+    height: inherit;
+    width: 25%;
+}
+.way > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: 1rem;
+}
+.way > div > p {
+    text-align: right;
+    font-family: "Vazir";
+    font-size: medium;
+}
+.way > div > div {
+    margin-top: 1rem;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.way > div > div p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #6a6a6a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:424px) {
+    .img1 {
+        margin-left: 7px;
+    }
+}
+@media screen and (width:768px) {
+    .box_nav2 .div3 {
+        display: flex;
+        align-items: center;
+        width: 203px;
+    }
+    .search_box p {
+        font-size: medium;
+    }
+}
+/* @media screen and (width:375px) {
+    .icon, .box_nav1 img {
+        width: 20px;
+        height: 20px;
+    }
+    .box_nav2 .div2 p {
+        font-size:xx-small;
+    }
+    .icon, .box_nav1 img {
+        width: 10px;
+        height: 10px;
+    }
+    .box_nav2 .div3 {
+        display: flex;
+        align-items: center;
+        width: 100px;
+    }
+    .search_box_inner input {
+        width: 11rem;
+    }
+} */
+@media (max-width:426px ) {
+    .box_edcations .div_title p {
+        display: flex;
+        text-align: right;
+        font-family: "Vazir";
+        font-size:1.2rem;
+        font-weight: 300;
+        width: 15rem;
+        align-self: center;
+    }
+    .box_nav2 .div3 {
+        align-items: center;
+        width: 140px;
+        margin-left: 0.6rem;
+    }
+    .box_nav2 .div3 input {
+        width: 110px;
+        font-size: x-small;
+        height: 2.2rem;
+    }
+    .search_box p {
+        font-size: small;
+        text-align: center;
+    }
+    .box_nav2 .div2 p {
+        font-size: x-small;
+    }
+    .box_nav2 .div2 img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    .search_box_inner input {
+        width: 11rem;
+        font-size: small;
+    }
+    .box_nav2 .div2 {
+        width: 5.4rem;
+        text-align: right;
+    }
+    .logo {
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-left: -11px;
+    }
+    nav .box_nav1 {
+        margin: 0.29rem 0rem 0rem 0.2rem;
+    }
+    nav .box_nav2 {
+        margin: 0;
+    }
+    nav .box_nav1 div {
+        font-size: x-small;
+    }
+    .fixed .box_black div {
+        font-size:x-small;
+    }
+    .img1 {
+        width:20px;
+        height: 20%;
+    }
+    .ways .learning_paths > div {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 20rem;
+        height: 8rem;
+        background-color: white;
+        margin: 0.5rem 0.5rem;
+        border-radius: 5px;
+        padding: 0.8rem;
+    }
+    .way > div > p {
+        text-align: right;
+        font-family: "Vazir";
+        font-size: small;
+    }
+    .way > div > div {
+        margin-top: 1rem;
+        display: flex;
+        align-content: space-around;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    .way > div > div p {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #6a6a6a;
+        font-size: smaller;
+    }
+    .t1 p {
+        font-size: large ;
+    }
+    .t2  p {
+        font-size: xx-small;
+    }
+}
+@media (max-width:321px) {
+    .box_nav2 .div2 {
+        margin: 0;
+    }
+    .box_nav2 .div3 {
+        margin: 0;
+    }
+}
